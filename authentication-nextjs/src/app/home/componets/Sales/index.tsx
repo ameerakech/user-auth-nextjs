@@ -1,5 +1,6 @@
 "use client"
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+import Image from 'next/image';
 
 const FlashSale = () => {
   const [timeLeft] = useState({
@@ -21,7 +22,7 @@ const FlashSale = () => {
     <section className="py-10 px-4 -mt-88">
       <div className="flex flex-col md:flex-row justify-between items-center">
         <h2 className="text-2xl font-bold ml-50">
-          <span className='text-red-600 text-sm'>Today's</span> <br></br>Flash Sales</h2>
+          <span className='text-red-600 text-sm'>Today&aposs</span> <br></br>Flash Sales</h2>
 
         <div className="flex space-x-2 text-center mr-280">
           <div className="bg-gray-200 px-3 py-2 rounded">
@@ -50,7 +51,7 @@ const FlashSale = () => {
       <div className="flex overflow-x-auto space-x-25 pb-4 hide-scroll-bar ml-40 mt-4">
         {sales.map((sale, index) => (
           <div key={index} className="min-w-[200px] bg-white shadow-md rounded-lg p-4 text-center">
-            <img src={sale.image} alt={sale.name} className="w-full h-32 object-cover mb-2" />
+            <Image src={sale.image} alt={sale.name} className="w-full h-32 object-cover mb-2" />
             <div className="text-red-600 font-bold">-{sale.discount}%</div>
             <div className="text-gray-600"></div>
             <h3 className="text-lg font-semibold">{sale.name}</h3>

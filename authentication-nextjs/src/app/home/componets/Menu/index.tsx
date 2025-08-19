@@ -17,7 +17,7 @@ function Menu() {
         <div className="flex">
             <aside className="w-64 bg-white min-h-screen py-18 ml-45">
                 <ul>
-                    {menuItems.map((item, idx) => (
+                    {menuItems.map((item) => (
                         <li key={item} className="flex items-center justify-between px-6 py-3 text-gray-900 hover:bg-gray-100 cursor-pointer">
                             <span>{item}</span>
 
