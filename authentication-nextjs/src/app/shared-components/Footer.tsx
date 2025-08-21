@@ -7,6 +7,7 @@ import {
     FaApple,
 } from "react-icons/fa";
 import { HiOutlinePaperAirplane } from "react-icons/hi2";
+import Image from "next/image";
 
 
 const Footer = () => {
@@ -15,14 +16,14 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between gap-12">
 
                 <div className="flex-1 min-w-[250px]">
-                    <h2 className="text-3xl font-semibold mb-6">Exclusive</h2>
+                    <h2 className="text-3xl font-semibold mb-6 mr-18">Exclusive</h2>
                     <h3 className="text-2xl font-medium mb-4">Subscribe</h3>
                     <p className="mb-4 text-lg">Get 10% off your first order</p>
                     <form className="flex items-center">
                         <input
                             type="email"
                             placeholder="Enter your email"
-                            className="bg-transparent border border-white rounded-md py-3 px-5 text-lg flex-1 outline-none placeholder:text-neutral-400"
+                            className="bg-transparent border border-white rounded-md py-3 px-2 text-lg flex-1 outline-none placeholder:text-neutral-400"
                         />
                         <button
                             type="submit"
@@ -71,8 +72,15 @@ const Footer = () => {
                     <div className="flex gap-2 items-center mb-4">
 
                         <div>
-                            <span className="text-white text-xs">QR</span>
+                            <Image
+                                src="/QR-Code.png"
+                                alt="QR code"
+                                width={96}   
+                                height={96}
+                                className="object-contain"
+                            />
                         </div>
+
                         <div className="flex flex-col gap-2">
                             <a href="#" className="flex items-center border rounded px-2 py-1 gap-1 hover:bg-gray-700">
                                 <FaGooglePlay size={24} />

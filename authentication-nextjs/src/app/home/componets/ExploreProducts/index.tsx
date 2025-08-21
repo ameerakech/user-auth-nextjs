@@ -14,7 +14,7 @@ const BestSellingProducts = () => {
   ];
 
    return (
-    <div className="py-10 px-4">
+    <div className="py-10 px-4 ml-40">
       <div className="flex flex-col md:flex-row justify-between items-center mb-6">
         <div>
           <h2 className="text-2xl font-bold ml-12">

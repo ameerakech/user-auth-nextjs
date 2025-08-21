@@ -7,10 +7,10 @@ const Navbar = () => {
         <nav className="bg-white text-black p-4 flex justify-between items-center">
         <div className="text-xl font-bold"> Exclusive</div>
             <div className="space-x-20">
-                <Link href="#">Home</Link>
+                <Link href="/">Home</Link>
                 <Link href="#">Contact</Link>
                 <Link href="#">About</Link>
-                <Link href="#">Sign Up</Link>
+                <Link href="/signup">Sign Up</Link>
             </div>
             <div>
                 <input

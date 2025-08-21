@@ -51,7 +51,10 @@ const FlashSale = () => {
       <div className="flex overflow-x-auto space-x-25 pb-4 hide-scroll-bar ml-40 mt-4">
         {sales.map((sale, index) => (
           <div key={index} className="min-w-[200px] bg-white shadow-md rounded-lg p-4 text-center">
-            <Image src={sale.image} alt={sale.name} className="w-full h-32 object-cover mb-2" />
+            <Image 
+            src={sale.image} alt={sale.name} 
+            width={100}
+            height={100} />
             <div className="text-red-600 font-bold">-{sale.discount}%</div>
             <div className="text-gray-600"></div>
             <h3 className="text-lg font-semibold">{sale.name}</h3>
