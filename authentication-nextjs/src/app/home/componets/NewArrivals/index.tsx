@@ -3,9 +3,9 @@ import Link from "next/link";
 import { FiTruck, FiHeadphones, FiShield } from "react-icons/fi";
 const NewArrivals = () => {
   return (
-    <div className="space-y-10">
+    <div className="space-y-10 ml-5">
 
-      <div className="bg-black text-white flex justify-around w-[720px] mt-7 h-[260px] ml-250">
+      <div className="bg-black text-white flex justify-around w-[720px] mt-7 h-[260px] ml-220">
         <div className="mt-7 max-w-xs">
           <p className="text-3xl font-semibold">Womens Collections</p>
           <p className="mt-2">
@@ -24,7 +24,7 @@ const NewArrivals = () => {
       </div>
 
       <div className=" gap-8">
-        <div className="relative bg-black text-white flex justify-around w-[340px] mt-5 h-[350px] ml-250">
+        <div className="relative bg-black text-white flex justify-around w-[340px] mt-5 h-[350px] ml-220">
           <Image
             src="/hoofers.png"
             alt="Speaker"
@@ -40,7 +40,7 @@ const NewArrivals = () => {
           </div>
         </div>
 
-        <div className="relative bg-black text-white flex justify-around w-[340px] -mt-87 h-[350px] ml-350">
+        <div className="relative bg-black text-white flex justify-around w-[340px] -mt-87 h-[350px] ml-315">
           <Image
             src="/perfume.png"
             alt="Perfume"
@@ -57,7 +57,7 @@ const NewArrivals = () => {
         </div>
 
 
-        <div className="relative bg-black text-white flex justify-around w-[600px] -mt-162 h-[640px] ml-90">
+        <div className="relative bg-black text-white flex justify-around w-[600px] -mt-162 h-[640px] ml-60">
           <Image
             src="/bigspeakers.png"
             alt="big"

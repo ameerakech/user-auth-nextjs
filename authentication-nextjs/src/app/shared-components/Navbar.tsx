@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { FaSearch } from "react-icons/fa";
 
 const Navbar = () => {
     return (

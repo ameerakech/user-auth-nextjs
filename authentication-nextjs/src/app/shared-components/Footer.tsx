@@ -71,7 +71,7 @@ const Footer = () => {
                     <p className="mb-3 text-lg">Save $3 with App New User Only</p>
                     <div className="flex gap-2 items-center mb-4">
 
-                        <div>
+                        <div className="bg-amber-50">
                             <Image
                                 src="/QR-Code.png"
                                 alt="QR code"

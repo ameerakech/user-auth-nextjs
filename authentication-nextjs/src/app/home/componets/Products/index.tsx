@@ -46,7 +46,7 @@ const BestSellingProducts = () => {
         </div>
       </div>
 
-      <div className="bg-gray-900 text-white py-10 px-4 flex flex-col md:flex-row items-center justify-between w-[1680px] h-[550px] ml-50 mt-10">
+      <div className="bg-gray-900 text-white py-10 px-4 flex flex-col md:flex-row items-center justify-between w-[1580px] h-[550px] ml-30 mt-10">
         <div className="mb-4 md:mb-0 ml-80">
           <span className="text-green-400 text-sm">Categories</span>
           <h2 className="text-4xl font-bold mt-2">Enhance Your Music Experience</h2>
